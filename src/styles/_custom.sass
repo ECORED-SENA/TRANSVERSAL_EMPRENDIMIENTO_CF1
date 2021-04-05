@@ -1,0 +1,332 @@
+.span.grey 
+  background: #CBCBCB
+  border-radius: 0.8em
+  -moz-border-radius: 0.8em
+  -webkit-border-radius: 0.8em
+  color: #fff
+  display: inline-block
+  font-weight: bold
+  line-height: 1.6em
+  text-align: center
+  width: 1.6em 
+
+.text_color_1
+  color: #5DC2AE 
+
+.color_1
+  background-color: #93F5E5
+  font-size: 18px
+  color: #fff
+
+.color_2
+  background-color: #022644
+  font-size: 18px
+  color: #fff
+
+.jumbo_blue
+  background-color: #022644
+  & p, h1, h2, h3, h4, h5 
+    color: white
+  border-radius: 0.3rem
+  padding: 4rem
+  margin-top: -30px
+
+.jumbo_blue_2
+  background-color: #93F5E5
+  border-radius: 0.3rem
+  padding: 4rem
+  margin-top: -30px
+
+
+.img-p
+    z-index: 3
+    width: 87px
+    height: 87px
+    margin-left: 50px
+
+.img-c
+    z-index: 1
+    position: relative
+    margin-top: -101px
+    margin-left: 417px
+    
+
+.img-a 
+    display: block 
+    margin: auto   
+    width: auto
+    height: auto
+
+.img-b 
+    display: block   
+    width: auto
+    height: auto
+    
+
+.img-col 
+    display: block  
+    width: auto
+    height: auto
+
+.text-right
+    text-align: right
+
+.vineta
+    max-width: 5% !important
+
+.tamno_text_1
+  font-size: 18px
+
+.tamno_text_2
+  font-size: 24px
+
+.tarjeta
+  background-color: #fff
+  border-radius: 0.5em
+  padding: 50px
+  position: relative
+
+  &--numerada
+    padding-left: 75px !important
+    position: relative
+    margin-left: 50px
+    &__numero
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translate(-50%, -50%)
+      width: 100px
+      height: 100px
+      font-size: 85px
+      font-weight: bold
+      border: 5px solid #361274
+      background-color: #fff
+      border-radius: 50%
+      color: #361274
+      display: flex
+      justify-content: center
+      align-items: center
+    @media screen and (max-width: 768px)
+      padding-left: 55px !important
+      margin-left: 40px
+      &__numero
+        width: 80px
+        height: 80px
+        font-size: 60px
+    @media screen and (max-width: 576px)
+      padding-left: 40px !important
+      margin-left: 30px
+      &__numero
+        width: 60px
+        height: 60px
+        font-size: 40px
+
+
+  &--comillas
+    &::after
+      content: ''
+      display: block
+      width: 65px
+      height: 65px
+      position: absolute
+      right: 30px
+      top: -30px
+      background-size: 65px 65px
+
+      @media screen and (max-width: 768px)
+        width: 50px
+        height: 50px
+        background-size: 50px 50px
+
+  &--pregunta, &--admiracion
+    
+    &::after
+      content: ''
+      display: block
+      width: 120px
+      height: 120px
+      position: absolute
+      left: 0
+      top: 50%
+      transform: translate(-50%,-50%)
+      background-size: 120px 120px
+
+    @media screen and (max-width: 768px)
+      margin-left: 40px !important
+      padding-left: 55px !important
+      &::after
+        width: 80px
+        height: 80px
+        background-size: 80px 80px
+
+    @media screen and (max-width: 576px)
+      margin-left: 30px !important
+      padding-left: 45px !important
+      &::after
+        width: 60px
+        height: 60px
+        background-size: 60px 60px
+
+  &--admiracion
+    &::after
+
+  &--pregunta
+    &::after
+      
+
+  &--amarillo
+    background-color: #FFD54F !important
+
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, span
+      color: #673AB7 !important
+
+    
+
+  &--amarillo-claro
+    background-color: #FCF0C9
+    color: #361274
+
+    &__titulo
+      position: absolute
+      top: 0
+      transform: translateY(-25px)
+
+
+  &--lavanda
+    background-color: #DFFCF7
+
+    .tarjeta
+      padding: 25px
+      background-color: #E2E6FF
+
+  &--lavanda-claro
+    background-color: #EBE1FF
+
+  &--azul-claro_1
+    background-color: #D9FFF9
+    border-radius: 0em
+    h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6, p, span
+    
+
+
+  &--azul-claro
+    background-color: #E5FFFA
+    a
+      color: #0D47A1
+
+  &--verde_claro_1
+    background-color: #B1FFF2 !important
+    min-height: 547px
+     
+  &--verde_claro_2
+    background-color: #72D0BD !important
+    min-height: 547px
+
+  &--verde_claro_3
+    background-color: #2B8473 !important
+    min-height: 547px
+    p
+      color: #fff
+
+  &--verde_claro
+    background-color: #56AF9D !important
+    p 
+      color: white 
+   
+
+  &--verde_medio
+    background-color: #318876 !important
+    p 
+      color: white
+
+  &--verde_oscuro
+    background-color: #1A3C36 !important
+    p
+      color: white
+
+  &--verde_oscuro_1
+    background-color: #186455 !important
+    min-height: 547px
+    p
+      color: white
+
+  &--crema
+    background-color: #F8F8F8 !important
+
+  &--blanca
+    background-color: #fff !important
+
+  &--gris
+    background-color: #EAEAEA
+
+  &--borde-azul-obscuro
+    border: 3px solid #7986CB
+
+  &--borde-violeta
+    position: relative
+    border: 3px solid #673AB7
+
+    &__titulo
+      width: 70%
+      border: 3px solid #673AB7
+      border-radius: 15px
+      padding: 10px 20px
+      position: absolute
+      top: 0
+      left: 50%
+      background-color: white
+      transform: translate(-50%, -50%)
+      text-align: center
+
+  
+  @media screen and (max-width: 768px)
+    padding: 25px 15px
+
+  
+
+.nav-pills
+  .nav-link
+    border-radius($nav-pills-border-radius)
+
+    color: #205D78
+    background-color: #D2E1F1
+
+  .nav-link.active,
+  .show > .nav-link
+    color: white
+    background-color: #5DC2AE   
+
+.tr_table
+  background-color: #F0F0F0
+
+.tr_table_1
+  background-color: #F8F8F8
+
+.targeta_int
+  background-color: #CAF8EF
+  padding: 20px
+
+.targeta_int_1
+  background-color: #FFFFFF
+  padding: 20px
+
+.color_table_1
+  background-color: #B0E5DC
+
+.color_table_2
+  background-color: #EAEAEA
+
+.border_table
+  border: white 3px solid
+
+.span.green 
+  background: #5DC2AE
+  border-radius: 0.8em
+  -moz-border-radius: 0.8em
+  -webkit-border-radius: 0.8em
+  color: #111E61
+  display: inline-block
+  font-weight: bold
+  line-height: 1.6em
+  text-align: center
+  width: 1.6em 
