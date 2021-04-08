@@ -1,12 +1,25 @@
 <template lang="pug">
-.curso-main-container
-  BannerInterno(titulo="3. Formalización empresarial")
-  .container.tarjeta--blanca.p-4.p-md-5.mb-5
+.curso-main-container.pb-3
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5
+
+    .titulo-principal
+      .titulo-principal__numero
+        .h3 3 
+      .h3 Formalización empresarial
+    
     .row.justify-content-center
       .col-12.col-md-5
         p.text-right #[strong En Colombia existen varias entidades que se relacionan directamente con la formalización de toda empresa, como la Dirección de Impuestos y Aduanas Nacionales (DIAN), las Cámaras de Comercio y las Entidades Bancarias], la formalización bajo la normatividad vigente, ayuda al emprendedor a que su negocio crezca, a convertirse en proveedor de otras empresas y así llegar a otros mercados, además de abrir las posibilidades a obtener créditos y participar en programas del Gobierno que acompañan y fomentan las actividades de los emprendedores. 
       .col-12.col-md-6
-        img.img-col(src="@/assets/curso/tema_3/img_1.png")
+        .imagen-titulo--izq
+          figure.mb-5
+            img.img-col(src='@/assets/curso/tema_3/img_1.png', alt='Texto que describa la imagen')
+
+          .imagen-titulo__titulo
+            .h4.m-0.titulo_blanco Emprendedores
+
+    h4.mb-5 Algunos de estos pasos son: 
 
     .row.justify-content-left.align-items-center.mt-5 
       .col-12.col-md-10
@@ -50,14 +63,12 @@
 
     p.mt-5 Tenga en cuenta que de acuerdo con el tipo de sociedad creada y el monto de los aportes, los trámites pueden cambiar de forma sustancial.
 
-
-    
 </template>
 
 <script>
 import BannerInterno from '../../components/plantilla/BannerInterno'
 export default {
-  name: 'Tema2',
+  name: 'Tema3',
   components: {
     BannerInterno,
   },

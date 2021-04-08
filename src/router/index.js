@@ -36,33 +36,25 @@ const router = new VueRouter({
           path: 'tema2',
           name: 'tema2',
           component: () =>
-            import(
-              /* webpackChunkName: "actividad" */ '../views/curso/Tema2.vue'
-            ),
+            import(/* webpackChunkName: "tema2" */ '../views/curso/Tema2.vue'),
         },
         {
           path: 'tema3',
           name: 'tema3',
           component: () =>
-            import(
-              /* webpackChunkName: "actividad" */ '../views/curso/Tema3.vue'
-            ),
+            import(/* webpackChunkName: "tema3" */ '../views/curso/Tema3.vue'),
         },
         {
           path: 'tema4',
           name: 'tema4',
           component: () =>
-            import(
-              /* webpackChunkName: "actividad" */ '../views/curso/Tema4.vue'
-            ),
+            import(/* webpackChunkName: "tema4" */ '../views/curso/Tema4.vue'),
         },
         {
           path: 'tema5',
           name: 'tema5',
           component: () =>
-            import(
-              /* webpackChunkName: "actividad" */ '../views/curso/Tema5.vue'
-            ),
+            import(/* webpackChunkName: "tema5" */ '../views/curso/Tema5.vue'),
         },
       ],
     },

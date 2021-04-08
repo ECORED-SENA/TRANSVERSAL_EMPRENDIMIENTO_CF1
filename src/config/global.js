@@ -1,5 +1,4 @@
 export const global = {
-  programaFormacion: 'Emprendimiento',
   componenteFormativo: 'Ser emprendedor',
   descripcionCurso:
     'Relacionar aspectos importantes respecto a la caracterización del emprendedor, el entorno económico en el cual creará su empresa, cómo hace parte del ecosistema de emprendimiento y conocer las formas en que puede organizarse y formalizarse además de conocer las entidades que en Colombia apoyan a los emprendedores',
@@ -36,7 +35,7 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '1.2',
-          titulo: 'Análisis DOFA ',
+          titulo: 'Análisis DOFA',
           hash: 't_1_2',
         },
       ],
@@ -116,13 +115,19 @@ export const menuPrincipal = {
         {
           icono: 'far fa-file-alt',
           numero: '5.4',
-          titulo: 'Universidades e Instituciones de Educación Superior ',
+          titulo: 'Universidades e Instituciones de Educación Superior',
           hash: 't_5_4',
         },
       ],
     },
   ],
   subMenu: [
+    // {
+    //   nombreRuta: 'actividad',
+    //   icono: 'far fa-question-circle',
+    //   titulo: 'Actividad didáctica',
+    //   desarrolloContenidos: true,
+    // },
     {
       nombreRuta: 'glosario',
       icono: 'fas fa-sort-alpha-down',
@@ -419,7 +424,7 @@ export const complementario = [
     texto:
       'Ley 1014 de 2006. De fomento a la cultura del emprendimiento. Enero 27 de 2006. DO. N°46.164. ',
     tipo: 'PDF',
-    link: '../media/complementarios/Ley_1014_de_2006.pdf',
+    link: '/download/complementarios/Ley_1014_de_2006.pdf',
   },
   {
     texto: 'Minciencias (2021) Convocatorias.',
