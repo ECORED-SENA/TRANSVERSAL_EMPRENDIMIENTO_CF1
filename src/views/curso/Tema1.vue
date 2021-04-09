@@ -113,39 +113,17 @@
     #t_1_1.titulo-segundo.mt-5
       .h4 1.1 ¿Cuáles son las motivaciones para emprender?
 
-    p.mt-5.mb-5 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, 
-        br
-        | existen varios motivos para emprender, veamos:
+    .tarjeta.tarjeta--azul_oscuro.p-0.p-md-0.mb-5.mt-5
+      .row.justify-content-around.align-items-center
+        .col-8.col-md-6
+          img.img-col(src="@/assets/curso/tema_1/img_15.png")
 
-    TabsA.mb-5
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 1")
-        h4 Emprendimiento por necesidad 
-        p Es aquel que se desarrolla principalmente cuando un individuo presenta necesidades importantes de supervivencia, ya sea porque sus ingresos son reducidos o porque no cuenta con ingresos suficientes debido a factores como el desempleo, es un emprendimiento que no está planeado para tener un gran potencial de crecimiento, nula o baja creación de empleo y no genera gran impacto en desarrollo empresarial de una nación.
-      
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 2")
-        h4 Emprendimiento por oportunidad
-        p Es el emprendimiento donde el individuo detecta una oportunidad que tiene un gran potencial de ser atractiva, perdurable y oportuna, desarrolla la idea de negocio, se le realiza una investigación con mucho más detalle, se estudian todos los factores técnicos, de mercado y financieros, entre muchos otros. Es un emprendimiento de gran impacto, que puede llegar a ser un gran generador de empleo y contribuir en el PIB (Producto Interno Bruto) del país. 
-
-      
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 3")
-        h4 Emprendimiento de base tecnológica
-        p Se aplica en el diseño, desarrollo y elaboración de los nuevos productos o servicios, apoyados en tecnología, conocimientos o competencias profesionales de los dueños o socios. Generalmente, resultan ser empresas de investigación y desarrollo que pueden nacer al interior de una universidad o de otra empresa.
-
-      
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 4")
-        h4 Emprendimiento social
-        p Este tipo de emprendimientos busca generar beneficios para una comunidad específica que presenta necesidades sociales particulares, como el acceso restringido a servicios públicos, sanitarios o de educación entre otros. Se requiere de una investigación que permita identificar la alternativa de solución más adecuada para la comunidad. 
-
-      
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 5")
-        h4 Emprendimiento cultural
-        p Son aquellos negocios que proveen bienes y servicios derivados del uso de la creatividad y del capital intelectual de los emprendedores y crean valor aprovechando las expresiones artísticas y las herramientas tecnológicas. Estos emprendimientos se desarrollan dentro de las llamadas “industrias creativas” y generan productos y servicios como, una artesanía, una obra de teatro o la conservación de alguna tradición popular como la música o el folclor, entre otros. 
-
-      
-      .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Motivación 6")
-        h4 Emprendimiento sostenible 
-        p Los emprendimientos sostenibles se interesan por reducir el impacto en el medio ambiente de todas las actividades que se llevan a cabo en la empresa, promueven un cambio de hábitos por parte de los empresarios, pero también por parte de los consumidores que se sensibilizan en cuanto a las consecuencias de sus decisiones de consumo. Los emprendedores sostenibles proponen ideas relacionadas con la disminución de la contaminación, la disposición de residuos, la producción limpia, el ecodiseño, el comercio justo, etc. 
-
+        .col-md.col-lg-6.p-5
+          p.mb-5 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, existen varios motivos para emprender, veamos:
+          
+          a.boton.boton--b(href="@/download/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
+            span Descargar
+            i.fas.fa-file-download
 
     #t_1_2.titulo-segundo.mt-5
       .h4 1.2 Análisis DOFA
