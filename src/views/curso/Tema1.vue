@@ -121,7 +121,7 @@
         .col-md.col-lg-6.p-5
           p.mb-5 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, existen varios motivos para emprender, veamos:
           
-          a.boton.boton--b(href="@/download/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
+          a.boton.boton--b(href="/download/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
             span Descargar
             i.fas.fa-file-download
 
