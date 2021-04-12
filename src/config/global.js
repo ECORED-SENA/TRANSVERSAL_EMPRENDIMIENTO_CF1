@@ -225,7 +225,7 @@ export const creditos = {
       cargo: 'Soporte organizacional',
     },
     {
-      nombre: ['Adriana Rincón Avendaño', 'Eulises Orduz Amezquita'],
+      nombre: ['Carlos Julian Ramirez Benitez', 'Zuleidy Maria Ruiz Torres'],
       cargo: 'Diseño web y Producción Audiovisual',
     },
     {

@@ -113,16 +113,16 @@
     #t_1_1.titulo-segundo.mt-5
       .h4 1.1 ¿Cuáles son las motivaciones para emprender?
 
-    .tarjeta.tarjeta--azul_oscuro.p-0.p-md-0.mb-5.mt-5
+    .tarjeta.tarjeta--azul_oscuro.p-4.p-md-5.mb-5
       .row.justify-content-around.align-items-center
-        .col-8.col-md-6
-          img.img-col(src="@/assets/curso/tema_1/img_15.png")
+        .col-4.col-sm-6.col-md-3.mb-4.mb-md-0
+          img.img-col(src="@/assets/curso/tema_1/img_15.svg")
 
-        .col-md.col-lg-6.p-5
-          p.mb-5 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, existen varios motivos para emprender, veamos:
+        .col-md.col-lg-6
+          p.mb-3 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, existen varios motivos para emprender, veamos:
           
           a.boton.boton--b(href="/download/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
-            span Descargar
+            span Descargar Recurso
             i.fas.fa-file-download
 
     #t_1_2.titulo-segundo.mt-5
@@ -146,7 +146,7 @@
             h5 Fortalezas
             p Se entienden por fortaleza la existencia de una capacidad o recurso en condiciones de ser aplicado para lograr los objetivos y concretar los planes
       .col-12.col-md-6.mb-5.mr-md-4.my-5
-        .card.jumbo_blue_2
+        .card.jumbo_blue_2.tamano
           .card-body.text-center
             img.img-a(src="@/assets/curso/tema_1/img_10.png")
             h5 Debilidades
@@ -161,19 +161,18 @@
             p En este sentido pueden considerarse, estudios, capacidades intelectuales, habilidades interpersonales, inteligencia emocional, conocimiento del área en la que se desea emprender. Es posible auto formularse preguntas como: ¿qué habilidades poseo? ¿en qué soy bueno(a)? ¿qué tareas o actividades realizo con facilidad? ¿qué es lo que otros ven como puntos fuertes? ¿Qué conocimientos poseo?
           .col-md-6
             figure
-              img.img-col(src='@/assets/curso/tema_1/img_11.png', alt='Texto que describa la imagen')
+              img.img-col(src='@/assets/curso/tema_1/img_14.png', alt='Texto que describa la imagen')
         
       .py-4.py-md-5(titulo="Análisis de debilidades")
         .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img.img-col(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
           .col-md-6
             .h4 Análisis de debilidades 
             p.mb-3 Este análisis es el más difícil por la dificultad de tomar conciencia de estos aspectos. En el caso de las debilidades, una vez detectadas, es donde más importante resulta hacer acciones para superarlas. Se consideran factores que limitan el crecimiento personal, laborar o profesional. 
             p Se relaciona con temores, conocimiento desactualizado, desconocer algún tema, temor al cambio. Es posible auto formularse preguntas como: #[strong ¿qué se puede mejorar? ¿qué aspectos personales son más débiles respecto a los demás? ¿qué actitudes no me permiten avanzar?]
-
-        
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
+                  
       .py-4.py-md-5(titulo="Análisis de oportunidades")
         .row
           .col-md-6.mb-4.mb-md-0
@@ -182,16 +181,16 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
+              img.img-col(src='@/assets/curso/tema_1/img_11.png', alt='Texto que describa la imagen')
 
       .py-4.py-md-5(titulo="Análisis de amenazas")
         .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema_1/img_14.png', alt='Texto que describa la imagen')
           .col-md-6
             .h4 Análisis de amenazas
             p Este análisis requiere de un examen atento y claro del entorno en el que se encuentra el emprendedor y en el que estará su emprendimiento, es importante reconocer las situaciones externas que pueden complicar el logro de objetivos. Es posible auto formularse preguntas como: ¿qué puede afectar o frenar mi crecimiento personal, profesional o laboral? ¿qué cambios sociales, tecnológicos, económicos, políticos, etc., pueden afectarme en el futuro próximo? ¿hay alguna variable externa que dificulte el logro de mis objetivos? ¿qué competencia existe dentro de la empresa?
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/tema_1/img_13.png', alt='Texto que describa la imagen')
         
     .row.justify-content-center.align-items-center.mt-5
       .col-12.col-md-8

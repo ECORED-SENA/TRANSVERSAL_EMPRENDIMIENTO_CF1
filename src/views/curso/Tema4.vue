@@ -21,16 +21,16 @@
           img.img-a(src="@/assets/curso/tema_4/img_1.png")
 
     
-    .tarjeta.tarjeta--azul_oscuro.p-0.p-md-0.mb-5.mt-5
+    .tarjeta.tarjeta--azul_oscuro.p-4.p-md-5.mb-5.mt-5
       .row.justify-content-around.align-items-center
-        .col-8.col-md-6
-          img.img-col(src="@/assets/curso/tema_4/img_2.png")
+        .col-4.col-sm-6.col-md-3.mb-4.mb-md-0
+          img.img-col(src="@/assets/curso/tema_4/img_2.svg")
 
-        .col-md.col-lg-6.p-5
-          p.mb-5 El ecosistema de emprendimiento según Isenberg (2010) contempla seis dominios principales que ayudan a entender con mayor detalle el entorno en el cual se desarrollará el emprendimiento con el fin de generar riqueza para el emprendedor, su entorno y su país, estos son:
+        .col-md.col-lg-6
+          p.mb-3 El ecosistema de emprendimiento según Isenberg (2010) contempla seis dominios principales que ayudan a entender con mayor detalle el entorno en el cual se desarrollará el emprendimiento con el fin de generar riqueza para el emprendedor, su entorno y su país, estos son:
           
           a.boton.boton--b(href="/download/Temas_4_Ecosistema_de_emprendimiento.pdf" target="_blank")
-            span Descargar
+            span Descargar Recurso
             i.fas.fa-file-download
 
     

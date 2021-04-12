@@ -38,8 +38,8 @@
                 p Los cuales se caracterizan por agotarse en un corto periodo de tiempo o inmediatamente. Por ejemplo, un jabón de manos, el aceite de cocina, o los bienes perecederos, como un producto alimenticio. 
 
           .row.justify-content-center.mt-3.mb-4
-            .col-12.col-md-6
-              p.text-center.tamno_text_2 Así mismo, los bienes de consumo se pueden clasificar según su grado de terminación, en: 
+            .col-12.col-md-8
+              p.text-center.tamno_text_2.p-4 Así mismo, los bienes de consumo se pueden clasificar según su grado de terminación, en: 
 
           .row.justify-content-center
             .col-12.col-md-5.targeta_int_1.mb-5
@@ -50,9 +50,9 @@
 
             .col-12.col-md-5.targeta_int.mb-5
               img.img-b(src="@/assets/curso/tema_2/img_5.png")
-              h5.mt-4 No duraderos
+              h5.mt-4 Bienes intermedios
                 |
-                p Los cuales se caracterizan por agotarse en un corto periodo de tiempo o inmediatamente. Por ejemplo, un jabón de manos, el aceite de cocina, o los bienes perecederos, como un producto alimenticio.   
+                p Estos se usan como parte de un proceso productivo para ser transformados en un bien final, por ejemplo el algodón que se utiliza para la fabricación de los textiles.  
 
     .jumbo_blue_2.mt-5
       .row.justify-content-center.align-items-center
@@ -73,17 +73,16 @@
         
           .col-md-6
             figure
-              img(src='@/assets/curso/tema_2/img_17.png', alt='Texto que describa la imagen')
+              img.img-col(src='@/assets/curso/tema_2/img_17.png', alt='Texto que describa la imagen')
               
       .py-4.py-md-5(titulo="La distribución" :icono="require('@/assets/curso/tema_2/img_21.png')")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/curso/tema_2/img_18.png', alt='Texto que describa la imagen')
-              
+        .row              
           .col-md-6
             .h4 La distribución
             p Una vez finalizada la producción, los bienes deben llegar a los consumidores, y el proceso de distribución es el enlace entre la producción y el consumo; esta actividad también la realizan las empresas, aunque no sean las mismas encargadas de la producción.
+          .col-md-6.mb-4.mb-md-0
+            figure
+              img.img-col(src='@/assets/curso/tema_2/img_18.png', alt='Texto que describa la imagen')
         
       .py-4.py-md-5(titulo="El consumo" :icono="require('@/assets/curso/tema_2/img_22.png')")
         .row
@@ -92,7 +91,7 @@
             p Lo realizan los consumidores, que son las personas que deciden qué bienes eligen entre todos los que se han producido en el mercado, teniendo en cuenta que son estos los que disponen de los recursos (dinero, que suele ser limitado) para adquirirlos. 
           .col-md-6.mb-4.mb-md-0
             figure
-              img(src='@/assets/curso/tema_2/img_19.png', alt='Texto que describa la imagen')
+              img.img-col(src='@/assets/curso/tema_2/img_19.png', alt='Texto que describa la imagen')
 
     .cajon--azul.p-4.mb-5.mb-lg-0
       .p Ahora bien, para producir bienes y servicios, las empresas necesitan de recursos a los cuales se les 
@@ -102,24 +101,24 @@
       .col-12.col-md-3
         .tarjeta.tarjeta--verde_1.mb-5.full-height
           img.img-b(src="@/assets/curso/tema_2/img_7.png")
-          p.mt-2  
+          p.mt-3  
             strong Las familias 
-          p Son los agentes económicos que deciden qué consumir, por una parte son propietarias de algunos factores de producción, como el trabajo, y por otra son los consumidores de bienes y servicios que producen las empresas.
+          p.mt-3 Son los agentes económicos que deciden qué consumir, por una parte son propietarias de algunos factores de producción, como el trabajo, y por otra son los consumidores de bienes y servicios que producen las empresas.
 
       .col-12.col-md-3
         .tarjeta.tarjeta--verde_2.mb-5
           img.img-b(src="@/assets/curso/tema_2/img_8.png")
-          p.mt-2 
+          p.mt-3 
             strong Las empresas  
-          p Son los agentes que deciden qué se debe producir y distribuir.
+          p.mt-3 Son los agentes que deciden qué se debe producir y distribuir.
 
 
       .col-12.col-md-3
         .tarjeta.tarjeta--verde_3.mb-5
           img.img-b(src="@/assets/curso/tema_2/img_9.png")
-          p.mt-2 
+          p.mt-3 
             strong El estado 
-          p O sector público es el agente conformado por las administraciones públicas encargadas del bienestar general de la sociedad.
+          p.mt-3 O sector público es el agente conformado por las administraciones públicas encargadas del bienestar general de la sociedad.
 
     p.mb-5 Las empresas para realizar su actividad y producir bienes y servicios, necesitan de los factores de producción trabajo, capital y recursos naturales en algunos casos, que pertenecen a las familias. Como contrapartida, las empresas remuneran a las familias pagando unas rentas por el uso de los recursos productivos. En el caso del trabajo recibirán un salario, un interés o un dividendo, y en el caso de los recursos naturales un alquiler o renta. 
 
