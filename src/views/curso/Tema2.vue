@@ -97,6 +97,24 @@
       .p Ahora bien, para producir bienes y servicios, las empresas necesitan de recursos a los cuales se les 
       | denominan factores productivos, a saber: 
 
+      .list.mt-3
+        .list__item
+          .list__item__bulletNumber
+        .list__txt
+          p.m-top  #[strong Los recursos naturales]. Es el conjunto de bienes que se obtienen de la naturaleza, son limitados y son susceptibles de agotarse, como el agua, la madera, los minerales, por ejemplo.
+      .list.mt-3  
+        .list__item
+          .list__item__bulletNumber
+        .list__txt
+          p.m-top #[strong El trabajo]. Es la actividad física e intelectual realizada por las personas dedicadas a la producción. Se conoce también como la mano de obra.
+      .list.mt-3
+        .list__item
+          .list__item__bulletNumber
+        .list__txt
+          p.m-top #[strong El capital]. Son os bienes de inversión necesarios para la producción de bienes y servicios, como las máquinas, locales, recursos financieros, etc. 
+
+    p.mt-5 Para que se desarrollen todas las fases de la actividad económica, es necesario que los #[strong agentes económicos] tomen decisiones, estos agentes son tres: 
+
     .row.justify-content-center.mt-5
       .col-12.col-md-3
         .tarjeta.tarjeta--verde_1.mb-5.full-height
@@ -179,8 +197,8 @@
         
       tr.border_table
         th(rowspan="4").text-center.color_1 Tamaño
-        td.text-center.color_table_1 Microempresas
-        td.text-center.color_table_2 0 – 10 trabajadores. 
+        td.color_table_1 Microempresas
+        td.color_table_2 0 – 10 trabajadores. 
 
       
       

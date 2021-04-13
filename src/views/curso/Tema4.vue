@@ -29,7 +29,7 @@
         .col-md.col-lg-6
           p.mb-3 El ecosistema de emprendimiento según Isenberg (2010) contempla seis dominios principales que ayudan a entender con mayor detalle el entorno en el cual se desarrollará el emprendimiento con el fin de generar riqueza para el emprendedor, su entorno y su país, estos son:
           
-          a.boton.boton--b(href="/download/Temas_4_Ecosistema_de_emprendimiento.pdf" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/downloads/Temas_4_Ecosistema_de_emprendimiento.pdf')" target="_blank" type="application/pdf")
             span Descargar Recurso
             i.fas.fa-file-download
 

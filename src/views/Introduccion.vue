@@ -14,7 +14,7 @@
 
     h3.mt-5 Según el estudio realizado por Global Entrepreneurship Monitor (GEM) Colombia 2019
 
-    h3.text_color_1 Los 11 factores que obstaculizan la actividad empresarial en Colombia son:
+    h3.text_color_1 Los 12 factores que obstaculizan la actividad empresarial en Colombia son:
 
     .row.justify-content-left.align-items-center.mt-5 
       .col-12.col-md-10
@@ -32,9 +32,9 @@
           .col-12.col-md-1
             h4.span.grey 2
           .col-12.col-md-5
-            p.mt-2 La educación empresarial en un 
+            p.mt-2 El apoyo financiero en un 
           .col-12.col-md-4
-            h4.text_color_1 6.5%
+            h4.text_color_1 24.1%
 
     .row.justify-content-left.align-items-center 
       .col-12.col-md-10
@@ -42,7 +42,7 @@
           .col-12.col-md-1
             h4.span.grey 3
           .col-12.col-md-5
-            p.mt-2 La dinámica del mercado interno en 
+            p.mt-2 La educación empresarial en un 
           .col-12.col-md-4
             h4.text_color_1 6.5%
 
@@ -52,9 +52,9 @@
           .col-12.col-md-1
             h4.span.grey 4
           .col-12.col-md-5
-            p.mt-2 El acceso a la infraestructura física y de servicios en 
+            p.mt-2 La dinámica del mercado interno en 
           .col-12.col-md-4
-            h4.text_color_1 5.6%
+            h4.text_color_1 6.5%
 
     .row.justify-content-left.align-items-center 
       .col-12.col-md-10
@@ -62,7 +62,7 @@
           .col-12.col-md-1
             h4.span.grey 5
           .col-12.col-md-5
-            p.mt-2 Las capacidades para crear empresas en 
+            p.mt-2 El acceso a la infraestructura física y de servicios en 
           .col-12.col-md-4
             h4.text_color_1 5.6%
 
@@ -72,9 +72,9 @@
           .col-12.col-md-1
             h4.span.grey 6
           .col-12.col-md-5
-            p.mt-2 Las características de la mano de obra en 
+            p.mt-2 Las capacidades para crear empresas en 
           .col-12.col-md-4
-            h4.text_color_1 4.6%
+            h4.text_color_1 5.6%
 
     .row.justify-content-left.align-items-center 
       .col-12.col-md-10
@@ -82,7 +82,7 @@
           .col-12.col-md-1
             h4.span.grey 7
           .col-12.col-md-5
-            p.mt-2 Los programas gubernamentales en 
+            p.mt-2 Las características de la mano de obra en 
           .col-12.col-md-4
             h4.text_color_1 4.6%
 
@@ -92,6 +92,16 @@
           .col-12.col-md-1
             h4.span.grey 8
           .col-12.col-md-5
+            p.mt-2 Los programas gubernamentales en 
+          .col-12.col-md-4
+            h4.text_color_1 4.6%
+
+    .row.justify-content-left.align-items-center 
+      .col-12.col-md-10
+        .row.justify-content-left
+          .col-12.col-md-1
+            h4.span.grey 9
+          .col-12.col-md-5
             p.mt-2 El contexto político y social en 
           .col-12.col-md-4
             h4.text_color_1 3.7%
@@ -100,7 +110,7 @@
       .col-12.col-md-10
         .row.justify-content-left
           .col-12.col-md-1
-            h4.span.grey 9
+            h4.span.grey 10
           .col-12.col-md-5
             p.mt-2 Las normas sociales y culturales, la corrupción en 
           .col-12.col-md-4
@@ -110,7 +120,7 @@
       .col-12.col-md-10
         .row.justify-content-left
           .col-12.col-md-1
-            h4.span.grey 10
+            h4.span.grey 11
           .col-12.col-md-5
             p.mt-2 La transferencia de investigación y desarrollo en 
           .col-12.col-md-4
@@ -120,7 +130,7 @@
       .col-12.col-md-10
         .row.justify-content-left
           .col-12.col-md-1
-            h4.span.grey 11
+            h4.span.grey 12
           .col-12.col-md-5
             p.mt-2 El clima económico en  
           .col-12.col-md-4

@@ -383,6 +383,11 @@ export const complementario = [
     link: 'https://apps.co',
   },
   {
+    texto: 'Bancoldex. (2021) Líneas de crédito. ',
+    tipo: 'Página Web',
+    link: 'https://www.bancoldex.com/',
+  },
+  {
     texto: 'Cali emprendedora (2021) Desarrollo empresarial. ',
     tipo: 'Página web',
     link: 'https://www.caliemprendedora.com/ideacion',
@@ -424,7 +429,7 @@ export const complementario = [
     texto:
       'Ley 1014 de 2006. De fomento a la cultura del emprendimiento. Enero 27 de 2006. DO. N°46.164. ',
     tipo: 'PDF',
-    link: '/download/complementarios/Ley_1014_de_2006.pdf',
+    link: '/downloads/complementarios/Ley_1014_de_2006.pdf',
   },
   {
     texto: 'Minciencias (2021) Convocatorias.',

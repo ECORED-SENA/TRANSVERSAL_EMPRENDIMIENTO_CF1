@@ -71,7 +71,10 @@
 
     .row.justify-content-center.mt-5
       .col-12.col-md-7
-        p.text-right.tamno_text_3 Algunas de las entidades que a nivel gubernamental local apoyan a los emprendedores, son: 
+        p.text-right
+        
+        
+         Algunas de las entidades que a nivel gubernamental local apoyan a los emprendedores, son: 
 
       .col-12.col-md-4
         img.img-col(src="@/assets/curso/tema_5/img_3.png")
@@ -83,7 +86,7 @@
       
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Cali emprendedora")
         h4 Cali emprendedora 
-        p Plan de desarrollo que fomenta el emprendimiento impulsando a las iniciativas para crear micros, pequeñas, medianas y grandes empresas, esto como una de las principales alternativas para disminuir las altas tasas de desempleo. Brinda acompañamiento para que los 
+        p Plan de desarrollo que fomenta el emprendimiento impulsando a las iniciativas para crear micros, pequeñas, medianas y grandes empresas, esto como una de las principales alternativas para disminuir las altas tasas de desempleo. Brinda acompañamiento para que los interesados tengan acceso a microcréditos, capital semilla, capital de trabajo en especie, ruedas de negocio y herramientas digitales.
 
       
       .tarjeta.tarjeta--amarilla--borde.p-4(titulo="Red de emprendimiento de Santander")

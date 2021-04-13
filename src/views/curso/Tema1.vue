@@ -121,7 +121,7 @@
         .col-md.col-lg-6
           p.mb-3 Cada emprendimiento que surge es diferente según la motivación por la cual se llega a esta alternativa, existen varios motivos para emprender, veamos:
           
-          a.boton.boton--b(href="/download/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf" target="_blank")
+          a.boton.boton--b(:href="obtenerLink('/downloads/Tema_1.1_cuales_son_las_motivaciones_para_emprender.pdf')" target="_blank" type="application/pdf")
             span Descargar Recurso
             i.fas.fa-file-download
 
@@ -169,6 +169,7 @@
             .h4 Análisis de debilidades 
             p.mb-3 Este análisis es el más difícil por la dificultad de tomar conciencia de estos aspectos. En el caso de las debilidades, una vez detectadas, es donde más importante resulta hacer acciones para superarlas. Se consideran factores que limitan el crecimiento personal, laborar o profesional. 
             p Se relaciona con temores, conocimiento desactualizado, desconocer algún tema, temor al cambio. Es posible auto formularse preguntas como: #[strong ¿qué se puede mejorar? ¿qué aspectos personales son más débiles respecto a los demás? ¿qué actitudes no me permiten avanzar?]
+            p.mt-3 Las #[strong oportunidades] son situaciones externas que se pueden aprovechar para seguir creciendo, por su parte por #[strong amenazas] se entienden todos aquellos factores externos que limitan o desestabilizan lo que el emprendedor puede hacer.
           .col-md-6.mb-4.mb-md-0
             figure
               img.img-col(src='@/assets/curso/tema_1/img_12.png', alt='Texto que describa la imagen')
