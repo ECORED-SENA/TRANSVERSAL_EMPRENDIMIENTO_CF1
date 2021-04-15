@@ -60,11 +60,11 @@
 
     p.mb-5 Las habilidades se aprenden y depende de la capacidad del emprendedor, organizar en torno de él un medio rico en experiencias propias y ajenas que le permitan convertir la intención en creación de empresa y superar el enorme temor al fracaso que viene cuando se inicia un proyecto de vida nuevo.
 
-    .row.justify-content-center.mt-5
+    .row.justify-content-center.mt-5.mb-5
       .col-12.col-md-5
         p.tamno_text_2.text-center Las principales habilidades que un emprendedor debe tener son:
 
-    Slyder(clase-tarjeta="tarjeta--crema")
+    SlyderA(clase-tarjeta="tarjeta--crema").mb-5
       .row.justify-content-center.align-items-center
         .col-12.col-md-4
           h4.text-right.text_color_1 Pasión por lo que se hace: 

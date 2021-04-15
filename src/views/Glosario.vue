@@ -1,13 +1,13 @@
 <template lang="pug">
 .curso-main-container.glosario
   BannerInterno(icono="fas fa-atlas" titulo="Glosario")
-  .container.tarjeta--blanca.p-4.p-md-5.mb-5
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
     .glosario__letra-item.mb-2(v-for="letra in orderedData" :key="'letra-'+letra.letra")
       .glosario__letra-item__letra.me-4
         .glosario__letra-item__letra__icono
           span {{letra.letra}}
       .glosario__letra-item__texto
-        p(v-for="termino in letra.terminos")
+        p.mb-3(v-for="termino in letra.terminos")
           strong • {{termino.termino}}: 
           | {{termino.significado}}
 </template>

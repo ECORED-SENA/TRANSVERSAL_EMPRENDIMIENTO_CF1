@@ -23,7 +23,7 @@
 
 <script>
 import { global } from '../../config/global'
-import mixins from '../../mixins/mixins'
+import mixins from '../../mixins/plantillaMixins'
 export default {
   name: 'BannerPrincipal',
   mixins: [mixins],
@@ -35,7 +35,7 @@ export default {
 
 <style lang="sass" scoped>
 .banner-principal
-  span, p, h1
+  p, h1
     color: $white
 
   .tarjeta
@@ -45,6 +45,9 @@ export default {
 
 
   &__info
+    display: flex
+    flex-direction: column
+    justify-content: center
 
   &__programa
     display: flex

@@ -6,7 +6,6 @@ export default {
     stateStr: '',
     rendered: false,
   }),
-  computed: {},
   watch: {
     menuState() {
       this.domUpdated()
@@ -38,8 +37,8 @@ export default {
       this.elements = this.$slots.default.map((elemento, index) => ({
         id: this.mainId + index + 1,
         html: elemento.elm.outerHTML,
-        titulo: elemento.data.attrs.titulo,
-        icono: elemento.data.attrs.icono,
+        titulo: elemento.data?.attrs?.titulo,
+        icono: elemento.data?.attrs?.icono,
       }))
       this.selected = this.selected > 0 ? this.selected : this.elements[0].id
       this.stateStr = this.getStateStr()
@@ -54,7 +53,7 @@ export default {
       this.rendered = false
       setTimeout(() => {
         this.rendered = true
-      }, 500)
+      }, 100)
     },
   },
 }

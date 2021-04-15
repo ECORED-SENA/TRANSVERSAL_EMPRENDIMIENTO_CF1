@@ -1,12 +1,16 @@
 <template lang="pug">
 .curso-main-container.introduccion
-  BannerInterno(icono="fas fa-info" titulo="Introducción")
-  .container.tarjeta--blanca.p-4.p-md-5.mb-5
+  BannerInterno
+  .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
+  
+    .titulo-principal
+      .titulo-principal__numero
+        .h3
+          i.fas.fa-info
+      .h3 Introducción
     
-    figure.mb-5
-      .video
-        iframe(width="560" height="315" src="https://www.youtube.com/embed/2L91WMqw96A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen)
-      figcaption Video: Leyenda del video
+    figure.mb-5.mt-5
+      img.img-a(src='@/assets/curso/introduccion/img_1.svg', alt='Texto que describa la imagen')
     
     p.mb-5 El emprendimiento se basa en la aptitud y actitud que tiene el ser humano de iniciar una actividad la cual espera le genere un beneficio de algún tipo, el emprendimiento se inicia cuando el individuo encuentra una problemática o necesidad a nivel social o económico, por lo que plantea una solución o realiza un desarrollo que satisface dicha problemática o necesidad, entregándole así una solución a un cliente o segmento específico de clientes, a través de una idea que puede ser innovadora, ya sea creando un nuevo producto o servicio, o mejorando un producto o servicio actual.
 

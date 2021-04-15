@@ -169,47 +169,19 @@ export const creditos = {
       regional: 'Regional Santander',
     },
     {
-      nombre: 'Tania Yaneth Ramírez Benítez',
-      cargo: 'Soporte organizacional',
-      centro: 'Centro de comercio y servicios',
-      regional: 'Regional Tolima',
-    },
-    {
-      nombre: 'Javier Enrique Santana',
-      cargo: 'Experto temático',
+      nombre: 'Vilma Lucía Perilla Méndez',
+      cargo: 'Experta y Diseñadora Instruccional',
       centro: 'Centro de Gestión Industrial',
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Michael Andrés Cortés Caro',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Mauricio Jiménez Fajardo',
-      cargo: 'Experto temático',
-      centro: 'Ministerio de Ambiente y Desarrollo Sostenible',
-    },
-    {
-      nombre: 'Manuel Alejandro Garzón Cárdenas',
-      cargo: 'Experto temático',
-      centro: 'Deutsche Gesellschaft für',
-      regional: 'Internationale Zusammenarbeit (GIZ)',
-    },
-    {
-      nombre: 'Liliana Victoria Morales Gualdrón',
-      cargo: 'Diseñador instruccional',
-      centro: 'Centro para la Industria y la Comunicación Gráfica',
+      nombre: 'Ana Catalina Córdoba Sus',
+      cargo: 'Diseñadora Instruccional',
+      centro: 'Centro para la Industria de la Comunicación Gráfica',
       regional: 'Regional Distrito Capital',
     },
     {
-      nombre: 'Carlos Andrés Rodríguez',
-      cargo: 'Evaluador instruccional',
-      centro: 'Centro de Diseño y Metrología',
-      regional: 'Regional Distrito Capital',
-    },
-    {
-      nombre: 'Martha Isabel Martínez Vargas',
+      nombre: 'María Isabel Román Rueda',
       cargo: 'Revisora de estilo',
       centro: 'Centro Industrial del Diseño y la Manufactura',
       regional: 'Regional Santander',
@@ -223,13 +195,37 @@ export const creditos = {
     {
       nombre: 'Leyson Fabian Castaño Perez',
       cargo: 'Soporte organizacional',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolimma',
     },
     {
-      nombre: ['Carlos Julian Ramirez Benitez', 'Zuleidy Maria Ruiz Torres'],
+      nombre: [
+        'Camilo Andrés Villamizar Lizcano',
+        'Carlos Julian Ramirez Benitez',
+        'Maria Camila Ovalle Ospina',
+        'Nelson Iván Vera Briceño',
+        'Lady Adriana Ariza Luque',
+        'Victor Raúl Cárdenas Cáceres',
+        'Wilson Andres Arenales Cáceres',
+        'Zuleidy Maria Ruiz Torres',
+      ],
       cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro Industrial del Diseño y la Manufactura',
+      regional: 'Regional Santander',
     },
     {
-      nombre: 'Ricardo Alfonso Gonzalez Vargas',
+      nombre: ['Zuleidy Maria Ruiz Torres'],
+      cargo: 'Diseño web y Producción Audiovisual',
+      centro: 'Centro de Comercio y Servicios',
+      regional: 'Regional Tolimma',
+    },
+    {
+      nombre: [
+        'Edward Leonardo Pico Cabra',
+        'Daniel Ricardo Mutis Gómez',
+        'Luis Gabriel Urueta Alvarez',
+        'Ricardo Alfonso Gonzalez Vargas',
+      ],
       cargo: 'Desarrollo Front-End',
     },
     {
@@ -258,6 +254,10 @@ export const referencias = [
     link: 'https://apps.co',
   },
   {
+    referencia: 'Apps.co en Facebook',
+    link: 'https://www.facebook.com/MinisterioTIC.Colombia/',
+  },
+  {
     referencia: 'Bancoldex. (2021) Líneas de crédito.',
     link: 'https://www.bancoldex.com/',
   },
@@ -279,7 +279,7 @@ export const referencias = [
   },
   {
     referencia: 'Cámara de Comercio de Bogotá. Formalice su empresa. CCB.',
-    link: 'https://www.ccb.org.co/Cree-su-empresa/Formalice-su-empresa.',
+    link: 'https://www.ccb.org.co/Cree-su-empresa/Formalice-su-empresa',
   },
   {
     referencia: 'Fondo Nacional de Garantías (2021) Sobre el FNG Quienes somos',

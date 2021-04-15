@@ -33,6 +33,14 @@
             span Descargar Recurso
             i.fas.fa-file-download
 
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        a.anexo.mb-4(:href="obtenerLink('/downloads/dominios.pdf')" target="_blank")
+          .anexo__icono
+            img(src="@/assets/template/icono-pdf.svg")
+          .anexo__texto
+            p Anexo. Dominios del Ecosistema del Emprendimiento
+
     
 
 </template>

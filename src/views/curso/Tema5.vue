@@ -71,10 +71,7 @@
 
     .row.justify-content-center.mt-5
       .col-12.col-md-7
-        p.text-right
-        
-        
-         Algunas de las entidades que a nivel gubernamental local apoyan a los emprendedores, son: 
+        p.text-right.tamno_text_3 Algunas de las entidades que a nivel gubernamental local apoyan a los emprendedores, son: 
 
       .col-12.col-md-4
         img.img-col(src="@/assets/curso/tema_5/img_3.png")
