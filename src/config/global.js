@@ -250,10 +250,6 @@ export const referencias = [
     link: 'https://www.mhe.es/materia_familia.php?materia=5&nivel=C.',
   },
   {
-    referencia: 'Apps.co (2020) ¿Qué es APSS:CO?',
-    link: 'https://apps.co',
-  },
-  {
     referencia: 'Apps.co en Facebook',
     link: 'https://www.facebook.com/MinisterioTIC.Colombia/',
   },
@@ -378,9 +374,9 @@ export const glosario = [
 
 export const complementario = [
   {
-    texto: 'Apps.co (2020) ¿Qué es APSS:CO?',
+    texto: 'Apps.co en Facebook',
     tipo: 'Página Web',
-    link: 'https://apps.co',
+    link: 'https://www.facebook.com/MinisterioTIC.Colombia/',
   },
   {
     texto: 'Bancoldex. (2021) Líneas de crédito. ',

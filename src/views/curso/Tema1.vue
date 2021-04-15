@@ -142,13 +142,13 @@
       .col-12.col-md-6.mb-5.mr-md-4.my-5
         .card.jumbo_blue
           .card-body.text-center 
-            img.img-a(src="@/assets/curso/tema_1/img_9.png")
+            img.mb-3.img-a(src="@/assets/curso/tema_1/img_9.png")
             h5 Fortalezas
             p Se entienden por fortaleza la existencia de una capacidad o recurso en condiciones de ser aplicado para lograr los objetivos y concretar los planes
       .col-12.col-md-6.mb-5.mr-md-4.my-5
         .card.jumbo_blue_2.tamano
           .card-body.text-center
-            img.img-a(src="@/assets/curso/tema_1/img_10.png")
+            img.mb-3.img-a(src="@/assets/curso/tema_1/img_10.png")
             h5 Debilidades
             p y por debilidad la falta de una determinada capacidad o condición que puede apartar o dificultar el logro de las metas o fines.
 

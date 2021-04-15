@@ -18,7 +18,7 @@
     .row.justify-content-center
       .col-12      
         div.img-c
-          img.img-a(src="@/assets/curso/tema_4/img_1.png")
+          img.mt-4.img-a(src="@/assets/curso/tema_4/img_1.png")
 
     
     .tarjeta.tarjeta--azul_oscuro.p-4.p-md-5.mb-5.mt-5
