@@ -425,7 +425,7 @@ export const complementario = [
     texto:
       'Ley 1014 de 2006. De fomento a la cultura del emprendimiento. Enero 27 de 2006. DO. N°46.164. ',
     tipo: 'PDF',
-    link: '/downloads/complementarios/Ley_1014_de_2006.pdf',
+    descarga: '/downloads/complementarios/Ley_1014_de_2006.pdf',
   },
   {
     texto: 'Minciencias (2021) Convocatorias.',
